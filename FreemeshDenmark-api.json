@@ -1,0 +1,59 @@
+{
+  "name": "Freemesh Denmark",
+  "url": "http://freemesh.dk",
+  "location": {
+    "city": "Denmark",
+    "country": "DK",
+    "lat": 55.57834467218206,
+    "lon": 9.5361328125
+  },
+  "contact": {
+    "email": "kontakt@freemesh.dk.z11.de",
+    "irc": "irc://irc.hackint.org/#fmdk"
+  },
+  "state": {
+    "nodes": 4,
+    "description": "Free Mesh Network in Denmark. B.A.T.M.A.N. Gluon Firmware",
+    "focus": [
+      "Free internet access"
+    ],
+    "lastchange": "2016-09-15T17:45:12.637Z"
+  },
+  "timeline": [
+    {
+      "description": "Foundation",
+      "timestamp": "2016-08-27",
+      "url": "http://sommerhack.dk/workshops/"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "https://vm02.eclabs.de/firmware/fmdk/"
+    },
+    "dns": [
+      {
+        "domainname": "fmdk"
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fdf4:a50a:5c1f::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.212.0.0/20"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ]
+  },
+  "api": "1.0.0"
+}

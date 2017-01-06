@@ -27,7 +27,7 @@
     }
   ],
   "nodeMaps": [
-  {
+    {
       "url": "http://hawker.marlow.dk/map/",
       "interval": "1min",
       "technicalType": "hopglass",

@@ -26,10 +26,24 @@
       "url": "http://sommerhack.dk/workshops/"
     }
   ],
+  "nodeMaps": [
+    {
+      "url": "http://hawker.marlow.dk/map/",
+      "interval": "1min",
+      "technicalType": "hopglass",
+      "mapType": "geographical"
+    },
+    { 
+      "url": "http://hawker.marlow.dk/hopglass/nodelist.json",
+      "interval": "1min",
+      "technicalType": "hopglass",
+      "mapType": "list/status"
+    }
+  ],
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "https://vm02.eclabs.de/firmware/fmdk/"
+      "url": "http://freemesh.marlow.dk/freemesh-dk/"
     },
     "dns": [
       {
